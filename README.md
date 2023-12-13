@@ -20,3 +20,14 @@ a list of javascript interview questions
  var y="3"
  var z = x + y
  result => "33"
+
+
+ <!-- static typed or dynamic typed -->
+ JS is dynamically typed language
+ variables have no types
+ <!-- NaN -->
+ not a number, it indicates that it is not a legal number in JS
+
+ <!-- pass by value and pass by reference -->
+ primitives data types are passed by value and non primitive data types are passed by reference 
+ 

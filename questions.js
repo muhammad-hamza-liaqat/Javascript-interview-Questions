@@ -25,3 +25,10 @@ var b="34";
 // console.log("a+b",a+b); => concat
 // console.log("a-b",a-b); => will minus
 // console.log("a- (-b)", a- -b); => plus the numbers
+
+console.log(isNaN(12));  //false
+console.log(isNaN("hamza")); //true
+console.log(isNaN("1")); //false
+console.log(isNaN("true")); // true
+console.log(isNaN("false")); // true
+console.log(isNaN("undefined")); //true
