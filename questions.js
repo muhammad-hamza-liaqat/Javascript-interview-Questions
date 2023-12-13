@@ -19,3 +19,9 @@ name= "Muhammad Hamza Liaqat"
 console.log(name);
 // let name; // reference error will be thrown
 
+// implicit type coercion
+var a=33;
+var b="34";
+// console.log("a+b",a+b); => concat
+// console.log("a-b",a-b); => will minus
+// console.log("a- (-b)", a- -b); => plus the numbers

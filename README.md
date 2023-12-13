@@ -8,3 +8,15 @@ a list of javascript interview questions
      let x=10
      let y = "hamza" 
  };
+
+
+ <!-- difference between == and === -->
+ == only compares the values but === compares the values and the data type as well.
+
+
+ <!-- difference between var and let -->
+ <!-- implicit type coercion -->
+ var x=3;
+ var y="3"
+ var z = x + y
+ result => "33"
