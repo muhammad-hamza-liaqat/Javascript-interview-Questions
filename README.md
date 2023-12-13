@@ -30,4 +30,22 @@ a list of javascript interview questions
 
  <!-- pass by value and pass by reference -->
  primitives data types are passed by value and non primitive data types are passed by reference 
- 
+
+
+ <!-- iife function in js -->
+ <!-- use strict -->
+ it allows all form of error, silent errors to be thrown. relaxation is ignored in this mood.
+
+ <!-- higher order function -->
+ a function which takes another functions as a arugement or returns the function in output as considered as higher order function
+
+ <!-- Currying is an advanced technique to transform a function of arguments n, to n functions of one or fewer arguments. -->
+ function add (a) {
+  return function(b){
+    return a + b;
+  }
+}
+
+add(3)(4) 
+
+<!-- Closures are an ability of a function to remember the variables and functions that are declared in its outer scope. -->

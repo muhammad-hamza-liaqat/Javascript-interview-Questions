@@ -32,3 +32,15 @@ console.log(isNaN("1")); //false
 console.log(isNaN("true")); // true
 console.log(isNaN("false")); // true
 console.log(isNaN("undefined")); //true
+
+// higher order function
+const x= function higherOrder(){
+    return function(){
+        console.log( "do something");
+    }    
+}
+
+// let y=highOrder(function(){
+//     console.log("higher order function")
+// })
+console.log(this)
